@@ -1,8 +1,8 @@
 *{
 	margin: 0px;
 	padding:0px;
-	font-family: 'Segoe UI';
-}
+	font-family: 'Open Sans', sans-serif;
+	}
 
 html, body{
 	height: 100%;
@@ -14,7 +14,6 @@ html, body{
 #menu-lateral{
 	width: 20vw;
 	background: #292D33;
-	box-shadow:	inset -10px 0 20px rgba(0,0,0,.3);
 	float: left;
 	overflow: hidden;
 	transition:.2s all;
@@ -126,7 +125,7 @@ html, body{
 			right: 0px;
 			float: left;
 			height: 30px;
-			box-shadow: 0px 2px 2px 0px rgba(0,0,0,.3);
+
 		}
 
 			.app-titulo{
@@ -151,7 +150,7 @@ html, body{
 	width: 75vw;
 	border:1px solid #E4E4E4;
 	margin-right: 20px;
-	margin-top: 60px;
+	margin-top: 100px;
 	padding: 15px;
 	box-sizing:border-box;
 }
@@ -355,25 +354,69 @@ td{
 /*FICHAS==========================*/
 
 .ficha{
- 	background: red
+ 	background: #F8F8F8;
+ 	height: 300px;
+ 	border-radius: 3px;
+ 	border: 1px solid rgba(0,0,0,.1)
 }
 
 	.ficha-nombre{
-
+		border-right: 1px solid rgba(0,0,0,.1);
+		height: 300px;
 	}
 
 		.ficha-nombre>h1{
 			font-size: 23px !important;
 			margin: 0px !important;
+			margin-top: 20px !important;
+			margin-left: 10px !important;
 		}
 
 		.ficha-nombre>h2{
 			font-size: 15px !important;
 			margin: 0px !important;
+			margin-top: 0px !important;
+			margin-left: 10px !important;
+			font-weight: 400;
 		}
+
+		.ficha-nombre>img{
+			border-radius: 50%;
+			max-width: 90%;
+			margin-left: 5%;
+			margin-top: 20px;
+		}
+
 	.ficha-info{
 
 	}
+
+		.ficha-info>h1{
+			font-size: 23px !important;
+			margin: 0px !important;
+			margin-top: 20px !important;
+			margin-left: 10px !important;
+
+		}
+
+		.ficha-info>h2{
+			font-size: 15px !important;
+			margin: 0px !important;
+			margin-top: 0px !important;
+			margin-left: 10px !important;
+			font-weight: 400;
+		}
+
+		.ficha-info>p{
+			font-size: 14px !important;
+			margin: 0px !important;
+			margin-top: 20px !important;
+			margin-left: 10px !important;
+			font-weight: 300;
+			color: #A8ABB2 !important;
+		}
+
+
 
 /*============================ SUCIO ==============================*/
 .margen-izq{

@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<script type="text/javascript" src="js/funciones.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -197,21 +198,21 @@
 
 	<h2>Fichas</h2>
 
-	<div class="ficha div3">
+	<div class="ficha div6">
 	    <div class="ficha-nombre div4">
-	        <h1>Nombre</h1>
-	        <h2>Apeidos</h2>
-	        <img src="imagen.jpg" class="circulo">
+	        <h1>Eduardo</h1>
+	        <h2>Aguirre Caracheo</h2>
+	        <img src="img/perfil.jpg" class="circulo">
 	    </div>
 	    
 	    <div class="ficha-info div6">
 	            <h1>Información</h1>
-	            <a href=""></a>
-	            <h2>Titulo</h2>
-	            <h2>Experiencia academica</h2>
-	            <h2>Correo</h2>
-	            <h2>Cubículo</h2>
-	            <h2>Horario de atención</h2>
+	            <h2>Maestro en Sistemas de Información</h2>
+	            <p><b>Experiencia academica:</b> 4 años<br>
+	            <b>Correo:</b> lalo_100690@hotmail.com<br>
+	            <b>Cubículo:</b> Centro de Desarrollo</p>
+	            <p><b>Horario de atención:</b><br>
+	            Pueden encontrarme en el Centro de Desarrollo toda la vida, gracias.</p>
 	    </div>
 	</div>
 	
