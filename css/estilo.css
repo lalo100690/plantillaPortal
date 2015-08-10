@@ -14,14 +14,13 @@ html, body{
 #menu-lateral{
 	width: 20vw;
 	background: #292D33;
-	/*height: 100%;*/
 	box-shadow:	inset -10px 0 20px rgba(0,0,0,.3);
 	float: left;
 	overflow: hidden;
 	transition:.2s all;
 	position: fixed;
 	left: 0px;
-	top: 80px;
+	top: 90px;
 }	
 
 	#menu-lateral>ul{
@@ -58,21 +57,20 @@ html, body{
 
 #barra-titulo{
 	width: 100%;
-	background:#292D33;
+	background:#112d42;
 	position: fixed;
 	top: 0px;
 	left: 0px;
 	right: 0px;
 	float: left;
-	height: 40px;
+	height: 60px;
 	z-index: 99999999;
 }
 	
 	.titulo{
 		float: left;
 		width: 20vw;
-		background:#31363E;
-
+		background:rgba(0,0,0,.1);
 	}
 
 		.titulo>h1{
@@ -81,7 +79,7 @@ html, body{
 			text-transform: uppercase;
 			font-weight: normal;
 			letter-spacing: 1px;
-			line-height: 40px;
+			line-height: 60px;
 			margin-left: 10px;
 			text-align: center;
 		}
@@ -89,26 +87,28 @@ html, body{
 	.perfil{
 		width: 200px;
 		float: right;
-		background:#31363E;
+		background:rgba(0,0,0,.1);
+		cursor: pointer;
 	}
 
 		.perfil-nombre{
-			color: #AAAAAB;
+			color: #fff;
 			font-size: 13px;
 			font-weight: normal;
-			line-height: 40px;
+			line-height: 60px;
 			margin-left: 10px;
 			float: left;
 			cursor: default;
 			white-space: nowrap;
 			text-overflow:ellipsis;
 			overflow: hidden;
-			width: 150px
+			width: 150px;
+			cursor: pointer;
 		}
 
 		.perfil-image{
 			height: 30px;
-			margin-top: 5px;
+			margin-top: 15px;
 			width: 30px;
 			border-radius: 50%;
 			background: #fff;
@@ -119,19 +119,18 @@ html, body{
 
 		#barra-subtitulo{
 			width: 100%;
-			background:#E4E4E4;
+			background:#00afc5;
 			position: fixed;
-			top: 40px;
+			top: 60px;
 			left: 0px;
 			right: 0px;
 			float: left;
-			height: 40px;
+			height: 30px;
 			box-shadow: 0px 2px 2px 0px rgba(0,0,0,.3);
-			/*border-bottom: 1px solid rgba(0,0,0,.2);*/
 		}
 
 			.app-titulo{
-				background: #35ACA8;
+				background: #18b67c;
 				width: 20vw;
 				float: left;
 				height: 40px;
@@ -140,7 +139,7 @@ html, body{
 					color: #fff;
 					font-weight: normal;
 					font-size: 16px;
-					line-height: 40px;
+					line-height: 30px;
 					text-align: center;
 				}
 
@@ -208,51 +207,56 @@ html, body{
 
 /*GRID=============================================================*/
 
-.div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,.div10{
-	float: left;
+.div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,.div10,.div11,.div12{
+	float: left; 
 	margin-right: 1%;
-	margin-bottom: 10px;
+	margin-bottom: 10px; 
 	box-sizing: border-box;	
 }
 
-.div1{
-	width: 9%;
+.div1{ 
+	width: 7.33%;
 }
 
-.div2{
-	width: 19%;
+.div2{ 
+	width: 15.66%;
 }
 
 .div3{
-	width: 29%;
-}
+ 	width: 23.99%;
+ } 
 
-.div4{
-	width: 39%;
-}
+ .div4{ 
+ 	width: 32.33%;
+ } 
 
-.div5{
-	width: 49%;
-}
+ .div5{ 
+ 	width: 40.65%;
+ }
 
-.div6{
-	width: 59%;
-}
-
-.div7{
-	width: 69%;
-}
-
+ .div6{ 
+ 	width: 48.98%; 
+ } 
+ 
+ .div7{ 
+ 	width: 57.31%; 
+} 
 .div8{
-	width: 79%;
+	width: 65.64%; 
 }
 
 .div9{
-	width: 89%;
-}
+ 	width: 73.97%; 
+ }
 
 .div10{
-	width: 99%;
+	width: 82.3%; 
+}
+.div11{
+	width: 90.63%;
+}
+.div12{
+	width:99%;
 }
 
 .break{
@@ -346,6 +350,30 @@ td{
 	padding: 5px;
 	border-bottom: 1px dotted rgba(0,0,0,.1);
 }
+
+
+/*FICHAS==========================*/
+
+.ficha{
+ 	background: red
+}
+
+	.ficha-nombre{
+
+	}
+
+		.ficha-nombre>h1{
+			font-size: 23px !important;
+			margin: 0px !important;
+		}
+
+		.ficha-nombre>h2{
+			font-size: 15px !important;
+			margin: 0px !important;
+		}
+	.ficha-info{
+
+	}
 
 /*============================ SUCIO ==============================*/
 .margen-izq{

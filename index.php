@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<?php 
-include 'conexion.php'; ?>
+
 <html>
 <head>
 	<title>Portal Informática</title>
@@ -14,12 +13,12 @@ include 'conexion.php'; ?>
 	<!-- DATOS DE LOGIN -->
 	<div id="barra-titulo">
 		<div class="titulo">
-			<h1>Facultad de Informática</h1>
+			<h1>PORTAL INFORMÁTICA</h1>
 		</div>
 
 		<div class="perfil">
 			<div class="perfil-image"><img src="img/perfil.jpg" class="ajustar-img"></div>
-			<div class="perfil-nombre">Lalo Aguirre Caracheo Ibarguengoitia</div>
+			<div class="perfil-nombre">Lalo Aguirre Caracheo</div>
 		</div>
 	</div>
 	<div id="barra-subtitulo">
@@ -65,9 +64,13 @@ include 'conexion.php'; ?>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
 
 
 	<div class="div2 prueba"></div>
+	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
@@ -85,8 +88,12 @@ include 'conexion.php'; ?>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
 
 	<div class="div4 prueba"></div>
+	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
@@ -100,8 +107,12 @@ include 'conexion.php'; ?>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
 
 	<div class="div6 prueba"></div>
+	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
@@ -111,15 +122,28 @@ include 'conexion.php'; ?>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
 
 	<div class="div8 prueba"></div>
+	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
 	<div class="div1 prueba"></div>
 
 	<div class="div9 prueba"></div>
 	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
 
 	<div class="div10 prueba"></div>
+	<div class="div1 prueba"></div>
+	<div class="div1 prueba"></div>
+
+	<div class="div11 prueba"></div>
+	<div class="div1 prueba"></div>
+
+	<div class="div12 prueba"></div>
 
 	<hr>
 
@@ -169,11 +193,31 @@ include 'conexion.php'; ?>
 		</tr>
 	</table>
 
-	
+	<div class="clear"></div>
+
+	<h2>Fichas</h2>
+
+	<div class="ficha div3">
+	    <div class="ficha-nombre div4">
+	        <h1>Nombre</h1>
+	        <h2>Apeidos</h2>
+	        <img src="imagen.jpg" class="circulo">
+	    </div>
+	    
+	    <div class="ficha-info div6">
+	            <h1>Información</h1>
+	            <a href=""></a>
+	            <h2>Titulo</h2>
+	            <h2>Experiencia academica</h2>
+	            <h2>Correo</h2>
+	            <h2>Cubículo</h2>
+	            <h2>Horario de atención</h2>
+	    </div>
+	</div>
 	
 </div>
 
-<div class="clear"></div>
+
 
 </body>
 </html>
