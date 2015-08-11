@@ -23,7 +23,7 @@
 		</div>
 	</div>
 	<div id="barra-subtitulo">
-		<div class="app-titulo"><h1>Nombre del Sistema</h1></div>
+		<div class="app-titulo menta"><h1>Nombre del Sistema</h1></div>
 		<!-- <div class="app-extra"></div> -->
 	</div>
 </header>
@@ -150,12 +150,16 @@
 
 	<h2>Botones y Entradas</h2>
 
-	<input type="text" class="div5" placeholder="Entrada de Texto">
-	<input type="password" class="div5" placeholder="Entrada de Password">
-	<input type="date" class="div5">
-	<input type="email" class="div5" placeholder="Entrada de Correo">
+	<input type="text" class="div6" placeholder="Entrada de Texto">
+	<input type="password" class="div6" placeholder="Entrada de Password">
+	<input type="date" class="div6">
+	<input type="email" class="div6" placeholder="Entrada de Correo">
+	<textarea placeholder="Escribe un comentario aqui..." class="div6"></textarea>
+
+	<div class="div12"></div>
 
 	<button class="div1 azul">Azul</button>
+	<button class="div1 menta">Menta</button>
 	<button class="div1 morado">Morado</button>
 	<button class="div1 naranja">Naranja</button>
 	<button class="div1 verde">Verde</button>
@@ -167,7 +171,7 @@
 
 	<h2>Tablas</h2>
 
-	<table class="div10">
+	<table class="div12">
 		
 		<tr>
 			<th>Encabezado 1</th>
