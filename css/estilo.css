@@ -6,20 +6,21 @@
 
 html, body{
 	height: 100%;
-	background: #F3F3F3;
+	background: url(../img/bg.gif);
 }
 
 /*ESTILOS DEL MENU LATERAL======================================================*/
 
 #menu-lateral{
 	width: 20vw;
-	background: #292D33;
+	background: #30353d;
 	float: left;
 	overflow: hidden;
 	transition:.2s all;
 	position: fixed;
 	left: 0px;
 	top: 90px;
+	height: 100%;
 }	
 
 	#menu-lateral>ul{
@@ -36,17 +37,19 @@ html, body{
 			height: 40px;
 			line-height: 40px;
 			color: #AAAAAB;
-			padding-left: 10px;
+			padding-left: 20px;
+			font-size: 14px;
+			transition:.2s all;
 		}
 
 		#menu-lateral li:hover{
-			background: #31363E;
+			background: #3c424d;
 			cursor: pointer;
 			color: #AAAAAB;
 		}
 
 		.actual{
-			background: #31363E;
+			background: #3c424d;
 			cursor: pointer;
 			color: #FFF !important;
 			font-weight: bold;
@@ -56,7 +59,7 @@ html, body{
 
 #barra-titulo{
 	width: 100%;
-	background:#34495e;
+	background:#375873;
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -64,6 +67,8 @@ html, body{
 	float: left;
 	height: 60px;
 	z-index: 99999999;
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,.3);
+	border-bottom: 1px solid #2f4a62;
 }
 	
 	.titulo{
@@ -133,6 +138,7 @@ html, body{
 				width: 20vw;
 				float: left;
 				height: 40px;
+				box-shadow: inset 0px -2px 0px 0px red
 			}
 				.app-titulo>h1{
 					color: #fff;
@@ -148,15 +154,17 @@ html, body{
 	background: #fff;
 	float: right;
 	width: 75vw;
-	border:1px solid #E4E4E4;
+	/*border:1px solid rgba(0,0,0,1);*/
 	margin-right: 20px;
 	margin-top: 90px;
 	padding: 15px;
 	box-sizing:border-box;
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,.1);
+	border-radius: 2px;
 }
 
 	#contenido h1{
-		color: #3A4659;
+		color: #34495e;
 		font-size: 35px;
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -453,252 +461,27 @@ td{
 	max-width: 100%;
 }
 
-.oculto{
-	height: 40px;
-	overflow: hidden;
-	/*display: none;*/
-	transition:.2s all;
-}
-
-.alto-total{
-	height: 100%;
-	transition:.2s all;
-}
-
-	#maestros{
-
-	}
-
-	#materias{
-
-	}
-
-	.clases{
-		width: 20vw;
-		background: #F9F9F9;
-		height: 70vmin;
-		float: left;
-		margin-left: 15px;
-		margin-top: 15px;
-		margin-bottom: 15px;
-		overflow-y: scroll;
-		overflow-x: hidden;
-		cursor: pointer;
-		border:1px solid #E2E2E2;
-	}
-		.opcion{
-			width: 17.5vw;
-			height: 30px;
-			border-bottom: 1px solid #E2E2E2;
-			line-height: 30px;
-			color: #4D4D4D;
-			padding-left: 5px;
-			text-overflow:ellipsis;
-			overflow: hidden;
-			font-size: 13px;
-			float: left;
-		}
-
-		.opcion:hover{
-			background: #35ACA8;
-			/*font-weight: bold;*/
-			color: #fff;
-		}
-	
-	.half-a{
-		float: left;
-		width: 25vw;
-	}
-
-	.half-b{
-		width: 50vw;
-		float: left;
-		/*background: #000;*/
-	}
-
-	.sombra{
-		box-shadow: 0px 0px 0px 10px rgba(0,0,0,.5);
-	}
-
-	.horario{
-		border-collapse: collapse;
-		margin-top: 15px;
-	}
-
-	.horario td{
-		width: 8vw;
-		height: 60px;
-		text-align: center;
-		border:1px solid #E2E2E2;
-	}
-	.horario th{
-		width: 8vw;
-		height: 60px;
-		text-align: center;
-		font-weight: bolder;
-		border:1px solid #E2E2E2;
-		background: #F9F9F9;
-		color: #4D4D4D;
-	}
-
-
-
-/*DROPS*/
-
-.drop-hover{
-	background: #35ACA8;
-}
-
-.dropped{
-	background: #35ACA8;
-	width: 100%;
-	height: 60px;
-	color: #fff;
-	font-size: 12px;
-	line-height: 13px;
-	box-sizing:border-box;
-	border: 0px;
-	vertical-align: middle;
-	padding-top: 15px;
-}
-
-.dropped:hover{
-	background: #158581;
-	font-weight: normal;
-}
-
-.controles{
-	width: 100%;
-	float: left;
-	border-top: 1px solid #E2E2E2;
-	text-align: right;
-	margin-right: 25px;
-	height: 40px;
-	margin-top: 14px;
-}
-	.controles select{
-		float: right;
-		border: none;
-		font-size: 18px;
-		color: #A8ABB2;
-		font-weight: bolder;
-		height: 24px;
-		margin-top: 6px;
-		outline: none;
-		cursor: pointer;
-	}
-
-	.controles select:hover{
-		color: #35ACA8;
-	}
-	.controles select:focus{
-		background: #F9F9F9;
-	}
-
-	.controles option:hover{
-		color: #35ACA8
-	}
-
-	.guardar{
-		float: right;
-		color: #A8ABB2;
-		font-weight: bolder;
-		line-height: 40px;
-		margin-right: 20px;
-		font-size: 18px;
-		cursor: pointer;
-	}
-
-	.guardar:hover{
-		color: #35ACA8
-	}
-
-#bin{
-	font-size: 30px;
-	text-align: center;
-	width: 49vw;
-	margin-top: 10px;
-	border:2px dashed #E2E2E2;
-	color: #E2E2E2;
-
-}
-.bin-hover{
-	border:2px dashed #BB1818;
-	color: #BB1818;
-
-}
-
-.radioDisplay{
-	cursor: pointer;
-}
-
-:checked + .radioDisplay{
-	color:#fff;
-	background:#21D2CC;
-	cursor: pointer;
-}
-
-.radioOculto{
-	display: none;
-}
-
-.plan{
-	width: .5vw;
-	height: 30px;
-	/*background: #121;*/
-	float: left;
-	background: #999;
-}
-
-
-.TEL07{background: #8DB173}
-.SOF07{background: #6EA6BF}
-.INC07{background: #AE4A32}
-.INF07{background: #88697B}
-
-.TEL11{background:#5C8158}
-.SOF11{background:#0078AD}
-.INC11{background:#CB1E31}
-.INF11{background:#55405F}
-.LAT11{background: #F38725}
-
-.MCC10{background: #8A704D}
-
-.mini-controles{
-	float: left;
-}
-
-	.mini-controles p{
-		float: left;
-		margin-left: 15px;
-	}
-
-	.mini-controles button{
-		float: left;
-		margin-left: 10px;
-		background: #35ACA8;
-		padding: 2px;
-		border: none;
-		cursor: pointer;
-		font-weight: bolder;
-		color: #fff;
-		width: 30px;
-
-	}
-	
-	.mini-controles button:focus{
-		outline: none;
-	}
-	.mini-controles button:hover{
-		background: #21D2CC
-	}
-
-.COMPLETO{background: #8DB173}
-.LIBRE{background: #6EA6BF}
-.HONORARIOS{background: #AE4A32}
-
 .prueba{
 	background: #A8ABB2;
 	height: 30px;
 }
 
+.mini{
+	color: #626364;
+	font-size: 10px;
+	margin-left: 20px;
+	float: left;
+	width: 100%;
+	bottom: 100px;
+	position: absolute;
+}
+
+	.mini>a{
+		text-decoration: none;
+		color: #626364;
+	}
+
+	.mini>a:hover{
+		text-decoration: underline;
+		color: #818283;
+	}

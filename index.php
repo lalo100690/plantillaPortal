@@ -28,16 +28,7 @@
 	</div>
 </header>
 
-<div id="menu-lateral" class="alto-total">
-	<ul>
-		<a href="#"><li class="actual">Opción 1</li></a>
-		<a href="#"><li>Opción 2</li></a>
-		<a href="#"><li>Opción 3</li></a>
-		<a href="#"><li>Opción 4</li></a>
-		<a href="#"><li>Opción 5</li></a>
-		<a href="#"><li>Opción 6</li></a>
-	</ul>
-</div>
+<?php include 'menu.php'; ?>
 
 <div id="contenido">
 	<h1>Encabezado H1</h1>
