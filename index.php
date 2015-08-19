@@ -1,34 +1,8 @@
-<!DOCTYPE html>
 
-<html>
-<head>
-	<title>Portal Informática</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<script type="text/javascript" src="js/funciones.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
-</head>
-<body>
+<?php include 'up.php'; ?>
 
-<header>
-	<!-- DATOS DE LOGIN -->
-	<div id="barra-titulo">
-		<div class="titulo">
-			<h1>PORTAL INFORMÁTICA</h1>
-		</div>
-
-		<div class="perfil">
-			<div class="perfil-image"><img src="img/perfil.jpg" class="ajustar-img"></div>
-			<div class="perfil-nombre">Lalo Aguirre Caracheo</div>
-		</div>
-	</div>
-	<div id="barra-subtitulo">
-		<div class="app-titulo menta"><h1>Nombre del Sistema</h1></div>
-		<!-- <div class="app-extra"></div> -->
-	</div>
-</header>
-
-<?php include 'menu.php'; ?>
+<div id="bg-negro" onclick="cerrar()"></div>
+<div id="modal"></div>
 
 <div id="contenido">
 	<h1>Encabezado H1</h1>
@@ -210,10 +184,12 @@
 	            Pueden encontrarme en el Centro de Desarrollo toda la vida, gracias.</p>
 	    </div>
 	</div>
+
+	<h2>Ventanas Modales</h2>
+
+	<button class="div6 menta" onclick="verModal('chico', 'Hola diego perrito', 'Holis')">Mostrar Alerta</button>
+	<button class="div6 menta" onclick="verModal('grande', 'Datos guardados de manera exitosa.', 'Ok', 'Este es un parrafo de texto del mensaje de alerta')">Mostrar Ventana Modal</button>
 	
 </div>
 
-
-
-</body>
-</html>
+<?php include 'down.php'; ?>
